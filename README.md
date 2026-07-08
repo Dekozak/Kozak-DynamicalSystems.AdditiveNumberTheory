@@ -1,5 +1,7 @@
 # Recurrence → Arithmetic
 
+This covers what some of my undergraduate research covered supervised by Dr. William Ott
+
 **Recurrence in dynamical systems as an engine for proofs in additive number theory -- made computational.**
 
 One of the most beautiful stories in modern mathematics is that theorems about *orbits of dynamical systems returning near where they started* turn out to be equivalent to theorems about *arithmetic progressions hiding inside sets of integers*. This repository walks that story step by step, with executable, tested Python versions of each link in the chain:
