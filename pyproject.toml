@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recurrence-arithmetic"
+version = "0.1.0"
+description = "Recurrence in dynamical systems as an engine for proofs in additive number theory: Poincare, Kac, van der Waerden, Szemeredi (via Furstenberg), and Sarkozy, all made computational."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Your Name" }]
+keywords = [
+  "ergodic-theory",
+  "dynamical-systems",
+  "additive-combinatorics",
+  "szemeredi",
+  "van-der-waerden",
+  "furstenberg",
+]
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
