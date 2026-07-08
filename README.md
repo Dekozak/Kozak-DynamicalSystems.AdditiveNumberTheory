@@ -1,6 +1,6 @@
 # Recurrence → Arithmetic
 
-**Recurrence in dynamical systems as an engine for proofs in additive number theory — made computational.**
+**Recurrence in dynamical systems as an engine for proofs in additive number theory -- made computational.**
 
 One of the most beautiful stories in modern mathematics is that theorems about *orbits of dynamical systems returning near where they started* turn out to be equivalent to theorems about *arithmetic progressions hiding inside sets of integers*. This repository walks that story step by step, with executable, tested Python versions of each link in the chain:
 
@@ -13,7 +13,7 @@ Poincaré recurrence  (1890)
                        └── polynomial recurrence  ⇔  Furstenberg–Sárközy square differences  (1977–78)
 ```
 
-None of these theorems can literally be *proved* by a computer running finite experiments, but every object appearing in the proofs — invariant measures, correlation integrals, orbit closures, return times — has an exact finite analogue that you can compute, plot, and test. That is what this package does. The point is to make the dictionary between dynamics and combinatorics tangible.
+None of these theorems can literally be *proved* by a computer running finite experiments, but every object appearing in the proofs -- invariant measures, correlation integrals, orbit closures, return times -- has an exact finite analogue that you can compute, plot, and test. That is what this package does. The point is to make the dictionary between dynamics and combinatorics tangible.
 
 ## The dictionary
 
@@ -55,7 +55,7 @@ multiple recurrence, k = 4:
   explicit 4-term AP in S: [1, 2049, 4097, 6145]  (gap 2048)
 ```
 
-The explicit progression's gap 2048 = 2·4⁵ is no accident — the digit condition makes the set nearly invariant under shifts tied to powers of 4, and the search finds this structure on its own. This is a small echo of the structure-versus-randomness dichotomy at the heart of all modern proofs of Szemerédi's theorem.
+The explicit progression's gap 2048 = 2·4⁵ is no accident -- the digit condition makes the set nearly invariant under shifts tied to powers of 4, and the search finds this structure on its own. This is a small echo of the structure-versus-randomness dichotomy at the heart of all modern proofs of Szemerédi's theorem.
 
 ## Reading list
 
