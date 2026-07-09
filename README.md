@@ -37,7 +37,7 @@ Furstenberg's multiple recurrence theorem says the third row's measure is positi
 ## Quick start
 
 ```bash
-git clone https://github.com/you/recurrence-arithmetic](https://github.com/Dekozak/Kozak-DynamicalSystems.AdditiveNumberTheory
+git clone https://github.com/Dekozak/Kozak-DynamicalSystems.AdditiveNumberTheory
 cd recurrence-arithmetic
 pip install -e ".[dev]"
 pytest                       # ~10 s: verifies Kac, W(2,3)=9, Weyl decay, ...
